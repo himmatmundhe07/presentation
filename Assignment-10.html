@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedding External Content</title>
+</head>
+
+<body>
+    <h1>Embedding Content in HTML</h1>
+    <p>This page shows how to embed videos, articles, and maps directly into an HTML document.</p>
+    <nav>   
+        <a href="#youtube">YouTube</a>
+        <a href="#wikipedia">Wikipedia</a>
+        <a href="#maps">Google Maps</a>
+    </nav>
+
+    <section id="youtube">
+        <h2>YouTube Video</h2>
+        <p>Here is a coding tutorial video from YouTube:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/irqbmMNs2Bo?si=oTz7ElR9QRdF6lZv"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>This is an example YouTube video embedded using the <code>&lt;iframe&gt;</code> tag. You can watch it
+            directly without leaving this page.</p>
+    </section>
+
+    <hr>
+
+
+    <section id="wikipedia">
+        <h2>Wikipedia Article</h2>
+        <p>Here is a Wikipedia article about Computer Science:</p>
+        <iframe width="560" height="315" src="https://en.wikipedia.org/wiki/Computer" title="Wikipedia page"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>This iframe displays the Computer Science article. embedded using the <code>&lt;iframe&gt;</code> tag. You
+            can watch it directly without leaving this page.</p>
+    </section>
+
+    <hr>
+
+
+    <section id="maps">
+        <h2>Google Maps Location</h2>
+        <p>Here is the location of CodingGita Campus:</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12429.176201766732!2d72.5072674152368!3d23.222296006295334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c3f9120099141%3A0xa2ea509a8429c97d!2sSwaminarayan%20University!5e1!3m2!1sen!2sin!4v1757999104776!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Description: This is where CodingGita students learn MERN stack. embedded using the <code>&lt;iframe&gt;</code> tag. You
+            can watch it directly without leaving this page.</p>
+    </section>
+    <hr>
+    <p><a href="#top">Back to Top</a></p>
+</body>
+
+</html>
